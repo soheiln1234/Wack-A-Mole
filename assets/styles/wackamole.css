@@ -1,0 +1,36 @@
+.square{
+    width: 370px;
+    height: 370px;
+    background-image: url('../images/Ground.svg');
+    background-size: cover;
+    padding: 0%;
+    margin: 2px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+.grid{
+    position: absolute;
+    cursor:url('../images/Hammer.png'),auto;
+    display: flex;
+    flex-flow:wrap ;
+    width: 1200px;
+    padding: 0%;
+    margin: 0%;
+    left: 27%;
+    top: 20%;
+}
+.mole{
+    background-image:url('../images/Wack-A-Mole.svg');
+    background-size: cover;
+}
+.article{
+    margin-top: 2%;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #353535;
+}
+.article h1{
+    margin-left: 25%;
+    font-size: 70px;
+}
